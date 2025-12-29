@@ -56,9 +56,7 @@ The CPU consists of:
 | Opcode | Operation |
 |--------|-----------|
 |   00   |    ADD    |
-
 |   01   |    SUB    |
-
 |   10   |    AND    |
 |   11   |    OR     |
 
