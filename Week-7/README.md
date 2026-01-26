@@ -39,7 +39,7 @@ This project focuses on understanding timing behavior in hardware designs and im
 * The datapath consists of the following stages:
   - Input Register Stage : Captures external input and acts as entry point of the datapath
   - Control Decode : Extracts operation from instruction
-  - Program Counter-Like Counter : Continuously increments evry clock cycle
+  - Program Counter-Like Counter : Continuously increments every clock cycle
   - Datapath Slice : Performs arithmetic/logical operation using register input and counter value
   - Stage Register : Captures combinational output of the datapath and breaks long combinational paths
   - Output Register : Registers the final output
@@ -55,7 +55,7 @@ This project focuses on understanding timing behavior in hardware designs and im
 
 
 * Clear understanding of cycle-accurate behaviour.
-* Implemented reg -> combinational -> reg timiing discipline.
+* Implemented reg -> combinational -> reg timing discipline.
 * Implemented clean separation between control logic and datapath logic.
 * Introducing pipeline registers for predictable multi-cycle latency.
 
